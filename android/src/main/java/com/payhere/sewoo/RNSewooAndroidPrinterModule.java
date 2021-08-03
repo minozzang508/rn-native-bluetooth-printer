@@ -5,15 +5,15 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 
 public class RNSewooAndroidPrinterModule extends ReactContextBaseJavaModule {
 
-    private final ReactApplicationContext reactContext;
+    private final String TAG = "RNSewooPrinter";
 
-    public RNSewooAndroidPrinterModule(ReactApplicationContext reactContext) {
+  public RNSewooAndroidPrinterModule(ReactApplicationContext reactContext) {
         super(reactContext);
-        this.reactContext = reactContext;
-    }
+  }
 
     @Override
     public String getName() {
         return "RNSewooAndroidPrinter";
     }
+
 }

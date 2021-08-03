@@ -42,4 +42,5 @@ repositories {
 dependencies {
     implementation 'com.facebook.react:react-native:+'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
